@@ -1,0 +1,49 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 749px);
+  padding-right: calc(50% - 749px);
+}
+
+.home {
+  background: url(../img/gabriel\ ghnassia\ .jpg) center/cover no-repeat;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  gap: 89px;
+}
+.header__link {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+}
+.header__link:hover {
+  font-weight: 700;
+  text-decoration: underline;
+  transform: 0.3s;
+}/*# sourceMappingURL=style.css.map */
