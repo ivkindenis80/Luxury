@@ -29,17 +29,41 @@ a{
         display: flex;
         gap: 89px;
     }
+
     &__link{
+        display: block;
         font-size: 25px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        transform: text-shadow .3s;
         color:$white;
         &:hover{
-            font-weight: 700;
-            text-decoration: underline;
-            transform: .3s;
+            text-decoration: 
+            underline;    
+            text-shadow: 1px 0 0 $white;
         }
+    }
+}
+
+.container{
+    padding-top: 193px;
+    &__text{  
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $white;
+        margin-bottom: 0.38px;
+    }
+    &__titel{
+        font-family: Adobe Garamond Pro;
+        font-size: 154px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 0.80;
+        letter-spacing: 10.78px;
+        color: $white;
     }
 }
 

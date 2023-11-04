@@ -36,14 +36,36 @@ a {
   gap: 89px;
 }
 .header__link {
+  display: block;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  transform: text-shadow 0.3s;
   color: #fff;
 }
 .header__link:hover {
-  font-weight: 700;
   text-decoration: underline;
-  transform: 0.3s;
+  text-shadow: 1px 0 0 #fff;
+}
+
+.container {
+  padding-top: 193px;
+}
+.container__text {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+  margin-bottom: 0.38px;
+}
+.container__titel {
+  font-family: Adobe Garamond Pro;
+  font-size: 154px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.8;
+  letter-spacing: 10.78px;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
