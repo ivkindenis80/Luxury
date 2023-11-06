@@ -21,9 +21,14 @@ a {
   padding-right: calc(50% - 749px);
 }
 
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
 .home {
   background: url(../img/gabriel\ ghnassia\ .jpg) center/cover no-repeat;
-  height: 100vh;
+  height: 1080px;
 }
 
 .header {
@@ -60,6 +65,11 @@ a {
   color: #fff;
   margin-bottom: 0.38px;
 }
+.container__text_size {
+  max-width: 580px;
+  font-size: 25px;
+  letter-spacing: 2.5px;
+}
 .container__titel {
   font-family: Adobe Garamond Pro;
   font-size: 154px;
@@ -68,4 +78,64 @@ a {
   line-height: 0.8;
   letter-spacing: 10.78px;
   color: #fff;
+}
+.container__subtitle {
+  font-family: Adobe Garamond Pro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 24px;
+  margin-bottom: 7px;
+  color: #fff;
+}
+
+.action {
+  display: flex;
+  align-self: center;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 113px;
+}
+.action__button {
+  position: relative;
+  width: 268px;
+  height: 78px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background-color: #E0B973;
+  padding-left: 32px;
+  cursor: pointer;
+}
+.action__button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 32px;
+  background-image: url(../img/icon/Group\ 37.svg);
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 26px;
+}
+.action .scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+}
+.action .scroll__text {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.25px;
+  color: #fff;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
