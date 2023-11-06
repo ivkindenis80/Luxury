@@ -15,10 +15,14 @@ a{
     padding-left: calc(50% - 749px);
     padding-right: calc(50% - 749px);
 }
+.top{
+    display: flex;
+    flex-direction: column;
+}
 
 .home{
     background: url(../img/gabriel\ ghnassia\ .jpg) center / cover no-repeat;
-    height: 100vh;
+    height: 1080px;
 }
 
 .header{
@@ -56,6 +60,11 @@ a{
         color: $white;
         margin-bottom: 0.38px;
     }
+    &__text_size{
+        max-width: 580px;
+        font-size: 25px;
+        letter-spacing: 2.5px;
+    }
     &__titel{
         font-family: Adobe Garamond Pro;
         font-size: 154px;
@@ -64,6 +73,67 @@ a{
         line-height: 0.80;
         letter-spacing: 10.78px;
         color: $white;
+    }
+    &__subtitle{
+        font-family: Adobe Garamond Pro;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 24px;
+        margin-bottom: 7px;
+        color: $white;
+    }
+}
+
+.action{
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 113px;
+    &__button{
+        position: relative;
+        width: 268px;
+        height: 78px;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: $white;
+        border: none;
+        border-radius: 5px;
+        background-color: $gold;
+        padding-left: 32px;
+        cursor: pointer;
+        &::before{
+            content: "";
+            display: block;
+            position: absolute;
+            top: 25px;
+            left: 32px;
+
+            background-image: url(../img/icon/Group\ 37.svg);
+            background-repeat: no-repeat;
+            width: 28px;
+            height: 26px;
+        }
+    }
+    .scroll{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 75px;
+        &__text{
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.25px;
+        color: $white;
+        margin-bottom: 20px;
+        }
     }
 }
 
