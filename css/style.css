@@ -362,14 +362,66 @@ footer:after {
 }
 .bottom__socseti {
   display: block;
+  position: relative;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 194.9%;
   color: #F7F7F7;
 }
-.bottom__socseti_facebook::after {
-  content: "";
-  background-image: url(../img/icon/facebook.svg);
-  background-repeat: no-repeat;
+.bottom__socseti:hover {
+  text-decoration: underline;
+}
+.bottom__socseti_facebook {
+  background: url(../img/icon/facebook.svg) no-repeat left center;
+  vertical-align: bottom;
+  background-size: 10px;
+  padding-left: 35px;
+}
+.bottom__socseti_twitter {
+  background: url(../img/icon/twitter.svg) no-repeat left center;
+  background-size: 16px;
+  vertical-align: bottom;
+  background-size: 18px;
+  padding-left: 35px;
+}
+.bottom__socseti_intagram {
+  background: url(../img/icon/Instagram.svg) no-repeat left center;
+  background-size: 16px;
+  vertical-align: bottom;
+  background-size: 18px;
+  padding-left: 35px;
+}
+
+.form__text {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form__input {
+  border: 2px solid #E0B973;
+  outline: invert;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  background-color: #14274A;
+}
+.form__input:hover .form__input::-moz-placeholder {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.form__input:hover .form__input::placeholder {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 25px;
+  padding-right: 25px;
 }/*# sourceMappingURL=style.css.map */
