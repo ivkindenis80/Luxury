@@ -400,22 +400,43 @@ footer {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        margin-bottom: 30px;
     }
     &__input{
         border: 2px solid #E0B973;
         outline: invert;
-        padding-top: 14px;
-        padding-bottom: 16px;
-        background-color: $black;
-        &:hover
+        background-color: transparent;
+        border-radius: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 278px;
+        height: 50px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $white;
         &::placeholder{
             color: $white;
+            
+            }  
+        }
+        &__but{
+            width: 80px;
+            height: 52px;
+            border-radius: 5px;
+            background-color: #E0B973;
+            border: none;
+            cursor: pointer;
             font-size: 16px;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 700;
             line-height: normal;
-            padding-left: 25px;
-            padding-right: 25px;    
+            color: $black;
+            text-transform: uppercase;
+            transition: background-color .3s;
+            &:hover{
+                background-color: #c5a365;
+            }
         }
-}
 }
