@@ -291,5 +291,152 @@ a{
     }
 }
 
+footer {
+    background-color: $black;
+    position: relative;
+    margin-top: 50px;
+    height: 320px;
+    &:after {
+        bottom: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(136, 183, 213, 0);
+        border-bottom-color: $black;
+        border-width: 60px;
+        margin-left: -58px;
+    }
+}
 
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    &__logo{
+        display: block;
+        padding-bottom: 22px;
+    }
+    &__address{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $white;
+    }
+    &__tel{
+        display: block;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $white;
+    }
+    &__email{
+        display: block;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $white;
+    }
+    &__link{
+        margin-bottom: 15px;
+        &>a{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $grei;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    &__socseti{
+        display: block;
+        position: relative;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 194.9%;
+        color: #F7F7F7; 
+        &:hover{
+            text-decoration: underline;
+        }
+        &_facebook{
+            background: url(../img/icon/facebook.svg) no-repeat left center;
+            vertical-align:bottom;
+            background-size: 10px;
+            padding-left: 35px;
+        }   
+        &_twitter{
+            background: url(../img/icon/twitter.svg) no-repeat left center;
+            background-size: 16px;
+            vertical-align:bottom;
+            background-size: 18px;
+            padding-left: 35px;
+        } 
+        &_intagram{
+            background: url(../img/icon/Instagram.svg) no-repeat left center;
+            background-size: 16px;
+            vertical-align:bottom;
+            background-size: 18px;
+            padding-left: 35px;
+        }
+    }
+}
 
+// Форма
+.form{
+    &__text{
+        color: $white;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+    &__input{
+        border: 2px solid #E0B973;
+        outline: invert;
+        background-color: transparent;
+        border-radius: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 278px;
+        height: 50px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $white;
+        &::placeholder{
+            color: $white;
+            
+            }  
+        }
+        &__but{
+            width: 80px;
+            height: 52px;
+            border-radius: 5px;
+            background-color: #E0B973;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: $black;
+            text-transform: uppercase;
+            transition: background-color .3s;
+            &:hover{
+                background-color: #c5a365;
+            }
+        }
+}
