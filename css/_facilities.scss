@@ -1,0 +1,41 @@
+.facilities{
+    background: url(../img/Facilities_top.jpg) center / cover no-repeat;
+    height: 1080px;
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services{
+    margin-top: 82px;
+   &__titel{
+       font-family: Adobe Garamond Pro;
+       font-weight: 700;
+       font-size: 60px;
+       font-style: normal;
+       color: $black;
+       text-align: center;
+       line-height: normal;
+       letter-spacing: 3px;
+       margin-bottom: 34px;
+   }
+   &__text{
+       text-align: center;
+       font-size: 25px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       color: #14274A;
+   }
+   &__box{
+       max-width: 1580px;
+       height: 100%;
+      &_gym{
+         background: url(../img/images/the_gym.jpg)center / cover
+         no-repeat;
+    }
+   }
+}

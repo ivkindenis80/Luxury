@@ -439,4 +439,45 @@ footer:after {
 }
 .form__but:hover {
   background-color: #c5a365;
+}
+
+.facilities {
+  background: url(../img/Facilities_top.jpg) center/cover no-repeat;
+  height: 1080px;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.services {
+  margin-top: 82px;
+}
+.services__titel {
+  font-family: Adobe Garamond Pro;
+  font-weight: 700;
+  font-size: 60px;
+  font-style: normal;
+  color: #14274A;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: 3px;
+  margin-bottom: 34px;
+}
+.services__text {
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #14274A;
+}
+.services__box {
+  max-width: 1580px;
+  height: 100%;
+}
+.services__box_gym {
+  background: url(../img/images/the_gym.jpg) center/cover no-repeat;
 }/*# sourceMappingURL=style.css.map */
