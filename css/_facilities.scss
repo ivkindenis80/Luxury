@@ -31,11 +31,47 @@
        color: #14274A;
    }
    &__box{
-       max-width: 1580px;
-       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: flex-end;
+       width: 1580px;
+       height: 1052px;
+       margin-bottom: 186px;
       &_gym{
-         background: url(../img/images/the_gym.jpg)center / cover
-         no-repeat;
+          background: url(../img/images/the_gym.jpg)center / cover
+          no-repeat;
     }
-   }
+      &_bar{
+          background: url(../img/images/POOLSIDE_BAR.jpg)center / cover
+          no-repeat;
+    }
+      &_spa{
+          background: url(../img/images/SPA.jpg)center / cover
+          no-repeat;
+    }
+      &_swimming{
+          background: url(../img/images/SWIMMING_POOL.jpg)center / cover
+          no-repeat;
+    }
+      &_restaurant{
+          background: url(../img/images/RESTAURANT.jpg)center / cover
+          no-repeat;
+    }
+      &_laundry{
+          background: url(../img/images/LAUNDRY.jpg)center / cover
+          no-repeat;
+          margin-bottom: 113px;
+    }
+}
+&__desc{
+    width: 684px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: $black;
+    background-color: $white;
+    text-align: center;
+    padding-top: 16px;
+}
 }
