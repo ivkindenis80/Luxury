@@ -37,6 +37,9 @@ a{
         display: flex;
         gap: 89px;
     }
+    &_action{
+        text-decoration: underline;
+    }
 
     &__link{
         display: block;

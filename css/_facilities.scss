@@ -1,0 +1,77 @@
+.facilities{
+    background: url(../img/Facilities_top.jpg) center / cover no-repeat;
+    height: 1080px;
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services{
+    margin-top: 82px;
+   &__titel{
+       font-family: Adobe Garamond Pro;
+       font-weight: 700;
+       font-size: 60px;
+       font-style: normal;
+       color: $black;
+       text-align: center;
+       line-height: normal;
+       letter-spacing: 3px;
+       margin-bottom: 34px;
+   }
+   &__text{
+       text-align: center;
+       font-size: 25px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       color: #14274A;
+   }
+   &__box{
+       display: flex;
+       justify-content: center;
+       align-items: flex-end;
+       width: 1580px;
+       height: 1052px;
+       margin-bottom: 186px;
+      &_gym{
+          background: url(../img/images/the_gym.jpg)center / cover
+          no-repeat;
+    }
+      &_bar{
+          background: url(../img/images/POOLSIDE_BAR.jpg)center / cover
+          no-repeat;
+    }
+      &_spa{
+          background: url(../img/images/SPA.jpg)center / cover
+          no-repeat;
+    }
+      &_swimming{
+          background: url(../img/images/SWIMMING_POOL.jpg)center / cover
+          no-repeat;
+    }
+      &_restaurant{
+          background: url(../img/images/RESTAURANT.jpg)center / cover
+          no-repeat;
+    }
+      &_laundry{
+          background: url(../img/images/LAUNDRY.jpg)center / cover
+          no-repeat;
+          margin-bottom: 113px;
+    }
+}
+&__desc{
+    width: 684px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: $black;
+    background-color: $white;
+    text-align: center;
+    padding-top: 16px;
+}
+}

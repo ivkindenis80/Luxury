@@ -44,6 +44,9 @@ a {
   display: flex;
   gap: 89px;
 }
+.header_action {
+  text-decoration: underline;
+}
 .header__link {
   display: block;
   font-size: 25px;
@@ -439,4 +442,76 @@ footer:after {
 }
 .form__but:hover {
   background-color: #c5a365;
+}
+
+.facilities {
+  background: url(../img/Facilities_top.jpg) center/cover no-repeat;
+  height: 1080px;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.services {
+  margin-top: 82px;
+}
+.services__titel {
+  font-family: Adobe Garamond Pro;
+  font-weight: 700;
+  font-size: 60px;
+  font-style: normal;
+  color: #14274A;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: 3px;
+  margin-bottom: 34px;
+}
+.services__text {
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #14274A;
+}
+.services__box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 1580px;
+  height: 1052px;
+  margin-bottom: 186px;
+}
+.services__box_gym {
+  background: url(../img/images/the_gym.jpg) center/cover no-repeat;
+}
+.services__box_bar {
+  background: url(../img/images/POOLSIDE_BAR.jpg) center/cover no-repeat;
+}
+.services__box_spa {
+  background: url(../img/images/SPA.jpg) center/cover no-repeat;
+}
+.services__box_swimming {
+  background: url(../img/images/SWIMMING_POOL.jpg) center/cover no-repeat;
+}
+.services__box_restaurant {
+  background: url(../img/images/RESTAURANT.jpg) center/cover no-repeat;
+}
+.services__box_laundry {
+  background: url(../img/images/LAUNDRY.jpg) center/cover no-repeat;
+  margin-bottom: 113px;
+}
+.services__desc {
+  width: 684px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #14274A;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 16px;
 }/*# sourceMappingURL=style.css.map */
