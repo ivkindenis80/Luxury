@@ -226,9 +226,11 @@ a{
 }
 
 .slider{
+    &__bottom{
     display: flex;
     flex-direction: column;
     align-items: center;
+    }
     &__titel{
         font-family: Adobe Garamond Pro;
         font-size: 60px;

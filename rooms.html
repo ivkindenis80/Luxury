@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facilities</title>
+    <title>Rooms</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="top center facilities">
+    <div class="top center rooms__bg">
         <header class="header">
             <a href="index.html" class="logo__top"><svg width="256" height="149" viewBox="0 0 256 149" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -34,10 +34,10 @@
                 <ul class="header__menu">
                     <li><a class="header__link
                         " href="index.html">Home</a></li>
+                    <li><a class="header__link 
+                        " href="facilities.html">Facilities</a></li>
                     <li><a class="header__link header_action
-                        " href="#">Facilities</a></li>
-                    <li><a class="header__link
-                        " href="rooms.html">Rooms</a></li>
+                        " href="#">Rooms</a></li>
                     <li><a class="header__link
                         " href="#">Contact-us</a></li>
                 </ul>
@@ -58,31 +58,26 @@
             </div>
         </div>
     </div>
-    <section class="wrap  center">
+    <section class="rooms  center">
         <article class="services">
-            <h2 class="services__titel">FACILITIES</h2>
-            <p class="services__text">We want your stay at our lush hotel to be truly unforgettable. That is why we give
-                special attention to all of your needs so that we can ensure an experience quite uniquw. Luxury hotels
-                offers the perfect setting with stunning views for leisure and our modern luxury resort facilities will
-                help you enjoy the best of all.</p>
+            <h2 class="services__titel">ROOMS AND RATES</h2>
+            <p class="services__text">Each of our bright, light-flooded rooms come with everything you could possibly
+                need for a comfortable stay. And yes, comfort isn’t our only objective, we also value good design, sleek
+                contemporary furnishing complemented by the rich tones of nature’s palette as visible from our rooms’
+                sea-view windows and terraces.</p>
         </article>
-        <article class="services__box services__box_gym" id="scroll__bottom">
-            <a href="#" class="services__desc">THE GYM</a>
-        </article>
-        <article class="services__box services__box_bar">
-            <a href="#" class="services__desc">POOLSIDE BAR</a>
-        </article>
-        <article class="services__box services__box_spa">
-            <a href="#" class="services__desc">THE SPA</a>
-        </article>
-        <article class="services__box services__box_swimming">
-            <a href="#" class="services__desc">SWIMMING POOL</a>
-        </article>
-        <article class="services__box services__box_restaurant">
-            <a href="#" class="services__desc">RESTAURANT</a>
-        </article>
-        <article class="services__box services__box_laundry">
-            <a href="#" class="services__desc">LAUNDRY</a>
+        <article class="rooms__box">
+            <div class="rooms__slider">
+                <div class="slides">
+
+                </div>
+                <div class="slider-dots"></div>
+            </div>
+            <h3 class="rooms__number">SINGLE ROOM</h3>
+            <div class="rooms__information">
+                <div class="rooms__detail"></div>
+                <button type="submit" class="rooms__price">$147 Avg/night</button>
+            </div>
         </article>
         <div class="slider__bottom">
             <h2 class="slider__titel">Testimonials</h2>
@@ -123,6 +118,7 @@
             </div>
         </div>
     </footer>
+    <script src="script/script.js"></script>
 </body>
 
 </html>
