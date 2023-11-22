@@ -1,0 +1,15 @@
+.rooms__bg{
+    background: url(../img/rooms_top.jpg) center / cover no-repeat;
+    height: 1080px;
+    position: relative;
+    z-index: 0;
+    &::after{
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(20, 39, 74, 0.50);
+        // opacity: 0.9;
+        z-index: -1;
+    }
+}
+// Слайдер
