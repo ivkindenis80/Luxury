@@ -530,6 +530,30 @@ footer:after {
   z-index: -1;
 }
 
+.rooms__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rooms__number {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  width: 452px;
+  height: 59px;
+  color: #fff;
+  background-color: #14274A;
+  padding: 41px 502px;
+  width: 598px;
+}
+.rooms__information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .slider {
   width: 1602px;
   height: 926px;
@@ -595,5 +619,29 @@ input[name=r] {
 }
 
 #r3:checked ~ .s1 {
+  margin-left: -50%;
+}
+
+#r4:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#r5:checked ~ .s1 {
+  margin-left: -25%;
+}
+
+#r6:checked ~ .s1 {
+  margin-left: -50%;
+}
+
+#r7:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#r8:checked ~ .s1 {
+  margin-left: -25%;
+}
+
+#r9:checked ~ .s1 {
   margin-left: -50%;
 }/*# sourceMappingURL=style.css.map */
